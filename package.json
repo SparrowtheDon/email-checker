@@ -1,0 +1,19 @@
+{
+  "name": "email-checker",
+  "version": "1.0.0",
+  "description": "A simple web app to verify single and bulk emails using the ZeroBounce API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2"
+  }
+}
